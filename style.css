@@ -1,0 +1,143 @@
+body {
+    font-family: Roboto;
+    color: #F9FAF8;
+    margin: 0;
+}
+.header, .footer {
+    background-color: #1F2937;
+}
+
+.header {
+    padding-bottom: 100px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 700px;
+}
+.logo {
+    align-self: center;
+    font-weight: bolder;
+}
+.right-links {
+    display: flex;
+    gap: 16px;
+}
+
+.top-page {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 16px 700px;
+    gap: 500px;
+
+}
+.header-content {
+    display: flex;
+    flex-direction: column;;
+    justify-content: center;
+}
+
+.top-header {
+    font-size: 48px;
+    font-weight: bolder;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.subtext {
+    display: flex;
+}
+
+.sign-up {
+    color: #F9FAF8;
+    background-color: #3992f6;
+    border: 0px;
+    border-radius: 10px;
+    height: 30px;
+    width: 90px;
+    margin-top: 10px;
+}
+
+img {
+    height: 300px;
+    width: 400px;
+}
+.content {
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 90px;
+}
+
+.random-info {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.card-holder {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.imgbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imgbox h1 {
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    border: 3px solid blue;
+}
+
+
+.card {
+    text-align: center;
+    width: 155px;
+}
+
+.quote-box {
+    color: #1F2937;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 250px;
+}
+
+.quote-words {
+    font-style: italic
+}
+
+.quote-author {
+    display: flex;
+    align-items: flex-end;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+    }
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+}
