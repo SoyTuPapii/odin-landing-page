@@ -10,15 +10,18 @@ body {
 .header {
     padding-bottom: 100px;
 }
+
 .navbar {
     display: flex;
     justify-content: center;
     gap: 700px;
 }
+
 .logo {
     align-self: center;
     font-weight: bolder;
 }
+
 .right-links {
     display: flex;
     gap: 16px;
@@ -32,6 +35,7 @@ body {
     margin-top: 100px;
 
 }
+
 .header-content {
     display: flex;
     flex-direction: column;
@@ -94,6 +98,7 @@ img {
     flex-direction: column;
     align-items: center;
 }
+
 .imgbox h1 {
     height: 100px;
     width: 100px;
@@ -148,6 +153,7 @@ img {
     font-weight: bolder;
     font-size: 36px;
 }
+
 .action .sign-up {
     color: #F9FAF8;
     background-color:#3992f6;
@@ -158,16 +164,15 @@ img {
     align-self: center;
 
 }
+
 a {
     text-decoration: none;
     color: #F9FAF8;
-    align-items: center;
     }
 
 
 ul {
     list-style-type: none;
-    display: flex;
 }
 
 .footer {
