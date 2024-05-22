@@ -12,8 +12,8 @@ body {
 }
 .navbar {
     display: flex;
-    justify-content: space-between;
-    padding: 16px 700px;
+    justify-content: center;
+    gap: 700px;
 }
 .logo {
     align-self: center;
@@ -28,14 +28,15 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding: 16px 700px;
-    gap: 500px;
+    gap: 400px;
+    margin-top: 100px;
 
 }
 .header-content {
     display: flex;
-    flex-direction: column;;
+    flex-direction: column;
     justify-content: center;
+    width: 350px;
 }
 
 .top-header {
@@ -114,7 +115,7 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 60px 450px;
+    padding: 60px 900px;
 }
 
 .quote-words {
@@ -134,7 +135,7 @@ img {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 50px 400px;
+    margin: 100px 400px;
     padding: 20px;
 }
 
@@ -173,5 +174,5 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    padding: 30px 0;
 }
