@@ -50,7 +50,7 @@ body {
     display: flex;
 }
 
-.sign-up {
+.top-page .sign-up {
     color: #F9FAF8;
     background-color: #3992f6;
     border: 0px;
@@ -114,7 +114,7 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 60px 250px;
+    padding: 60px 450px;
 }
 
 .quote-words {
@@ -123,13 +123,46 @@ img {
 
 .quote-author {
     display: flex;
-    align-items: flex-end;
+    align-self: flex-end;
+    font-weight: bolder;
+    margin-top: 10px;
 }
 
+.action {
+    color: #F9FAF8;
+    background-color: #3992f6;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 50px 400px;
+    padding: 20px;
+}
+
+.action-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.time  {
+    font-weight: bolder;
+    font-size: 36px;
+}
+.action .sign-up {
+    color: #F9FAF8;
+    background-color:#3992f6;
+    border-color: #F9FAF8;
+    border-radius: 10px;
+    height: 30px;
+    width: 90px;
+    align-self: center;
+
+}
 a {
     text-decoration: none;
     color: #F9FAF8;
+    align-items: center;
     }
+
 
 ul {
     list-style-type: none;
@@ -139,5 +172,6 @@ ul {
 .footer {
     display: flex;
     align-items: center;
-    justify-content: center ;
+    justify-content: center;
+    
 }
